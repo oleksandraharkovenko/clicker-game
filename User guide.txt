@@ -1,0 +1,16 @@
+User guide
+Setup steps:
+    1 Download the folder with files to your computer.
+    2 Open the index.html file in a browser (of your choice).
+Registration form:
+    3 Fill in the name field.
+    4 Fill in the email field.
+    5 Click on the create user button.
+Game Steps:
+    6 Each level contains 5 clicks.
+    7 Click on the enemy 5 times.
+    8 After the level is completed, a window appears with information about the completion of the level.
+    9 To continue the game, you need to click on the information window.
+    10 At the end of the game, a window appears with information about the end of the game and the total number of clicks per game.
+
+

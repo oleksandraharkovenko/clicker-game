@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+
+* {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.conteiner {
+    background-image: url(../images/forest.png);
+    background-repeat: no-repeat;
+    border: 10px solid rgb(197, 216, 23);
+    border-radius: 10px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+}
+
+.result-block {
+    width: 30%;
+    border: 6px solid rgb(197, 216, 23);
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    background: rgb(188, 193, 176);
+    opacity: 0.8;
+}
+
+.result-block-name,
+.result-block-score {
+    text-align: center;
+    margin: 30px;
+}

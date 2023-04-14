@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+* {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="email"]
+{
+    font-size: 15px;
+}
+
+.container {
+    background-image: url(../images/forest.png);
+    background-repeat: no-repeat;
+    border: 10px solid rgb(197, 216, 23);
+    border-radius: 10px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+}
+
+.create-user-form {
+    width: 35%;
+    border: 6px solid rgb(197, 216, 23);
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    background: rgb(188, 193, 176);
+    opacity: 0.8;
+}
+
+.name, .email {
+    margin: 12px 10px;
+    width: 100%;
+}
+
+.name-title, .name-input-block, .email-title, .email-input-block {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.email-input, .name-input {
+    background-color: rgb(217, 235, 186);
+    border-radius: 6px;
+    margin-left: 5px;
+}
+
+.create-user-button-block {
+    text-align: center;
+}
+
+.create-user-button {
+    background-color: rgb(217, 235, 186);
+    border-radius: 6px;
+    width: 150px;
+    height: 35px;
+    margin: 10px;
+}
+
+.name-input-error, .email-input-error {
+    color: red;
+    display: none;
+    font-size: 13px;
+}
